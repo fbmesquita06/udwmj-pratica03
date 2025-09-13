@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Compostos</title>
+    <link rel="stylesheet" href="pratica03exercicio06.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Juros Compostos</h1>
+        <div class="form-group">
+            <label for="capital">Capital Inicial disponibilizado  (R$):</label>
+            <input type="number" id="capital" placeholder="Ex: 1000" min="0">
+        </div>
+        <div class="form-group">
+            <label for="taxa">Taxa de Juros calculado (% a.t.):</label>
+            <input type="number" id="taxa" placeholder="Ex: 5" min="0" step="0.01">
+        </div>
+        <div class="form-group">
+            <label for="tempo">Prazon determinado  (t):</label>
+            <input type="number" id="tempo" placeholder="Ex: 12" min="0">
+        </div>
+        <button id="btnCalcular">Calcular Montante</button>
+        <div class="resultado" id="resultado">
+            </div>
+    </div>
+    <script src="pratica03exercicio06.js"></script>
+</body>
+</html>
